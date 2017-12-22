@@ -1,0 +1,20 @@
+subscription Item {
+  Item (
+    filter: {
+      mutation_in: [CREATED, UPDATED, DELETED]
+    }
+  ) {
+    mutation
+    node {
+      id
+      title
+      body
+    }
+    updatedFields
+    previousValues {
+      id
+      title
+      body
+    }
+  }
+}

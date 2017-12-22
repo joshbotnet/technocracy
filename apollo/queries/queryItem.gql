@@ -1,0 +1,11 @@
+query Item (
+  $id: ID!
+) {
+  Item (
+    id: $id
+  ) {
+    id
+    title
+    body
+  }
+}

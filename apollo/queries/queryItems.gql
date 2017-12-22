@@ -1,0 +1,13 @@
+query allItems (
+  $id: ID
+) {
+  allItems (
+    filter: {
+      id: $id
+    }
+  ) {
+    id
+    title
+    body
+  }
+}
