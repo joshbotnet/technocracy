@@ -95,6 +95,10 @@
     background-color: #d3d3d3 !important;
   }
 
+  .container {
+      padding: 10px 8px !important;
+  }
+
   .application--light .toolbar .btn:not(.btn--disabled):not(.btn--date-picker).btn--floating,
   .application--light .toolbar .btn:not(.btn--disabled):not(.btn--date-picker).btn--icon {
     color: rgba(255,255,255,.54);
@@ -178,22 +182,26 @@
   }
 
   .heading-icon-md {
-  font-size: 40px;
+    font-size: 40px;
   }
 
   .center {
     text-align: center;
   }
 
-  @media screen and (max-width: 639px) {
-
+  @media only screen and (max-width: 639px) {
     .page-bg {
       top: 50px;
       left: 5%;
       right: 0;
       width: 90%;
     }
+  }
 
+  @media only screen and (min-width: 400px) {
+    .banner_image {
+      margin: 0 0 0 36px !important;
+    }
   }
 
 </style>
