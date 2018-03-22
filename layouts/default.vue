@@ -101,7 +101,7 @@
   }
 
   .toolbar {
-    background-color: rgba(10,10,10,0.9) !important;
+    background-color: rgba(0,0,0,0.75) !important;
   }
 
   .card {
@@ -120,17 +120,12 @@
     width: 100%;
   }
 
-  .page-bg-home {
-
-  }
-
-
   h1, h2, h3, h4, h5, h6 {
     color: #aaaaaa;
   }
 
-  .display-1, .display-2, .display-3, .display-4 {
-
+  a {
+    text-decoration: none;
   }
 
   .card {
