@@ -91,20 +91,20 @@
     font-size: 16px;
   }
 
-  .application--light {
-    background-color: #d3d3d3 !important;
+  .theme--light {
+    background-color: #cccccc !important;
   }
 
   .container {
       padding: 10px 8px !important;
   }
 
-  .application--light .toolbar .btn:not(.btn--disabled):not(.btn--date-picker).btn--floating,
-  .application--light .toolbar .btn:not(.btn--disabled):not(.btn--date-picker).btn--icon {
+  .theme--light .toolbar .btn:not(.btn--disabled):not(.btn--date-picker).btn--floating,
+  .theme--light .toolbar .btn:not(.btn--disabled):not(.btn--date-picker).btn--icon {
     color: rgba(255,255,255,.54);
   }
 
-  .application--light .toolbar .btn {
+  .theme--light .toolbar .btn {
     margin: 6px 0;
   }
 
@@ -117,7 +117,7 @@
   }
 
   .card {
-    background-color: rgba(255,255,255,0.5) !important;
+    background-color: rgba(255,255,255,0.75) !important;
   }
 
   .page-bg {
@@ -134,6 +134,14 @@
 
   h1, h2, h3, h4, h5, h6 {
     color: #aaaaaa;
+  }
+
+  h2.display-1 {
+    margin-bottom: 12px;
+  }
+
+  h3.display-1 {
+    margin-bottom: 12px;
   }
 
   a {
@@ -187,6 +195,10 @@
 
   .center {
     text-align: center;
+  }
+
+  .footer {
+    padding: 0 0 0 16px;
   }
 
   @media only screen and (max-width: 639px) {
