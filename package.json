@@ -15,13 +15,9 @@
     "heroku-postbuild": "npm run generate"
   },
   "dependencies": {
-    "@nuxtjs/apollo": "latest",
-    "graphql": "^0.11.7",
-    "graphql-tag": "^2.5.0",
     "node-sass": "^4.5.3",
     "nuxt": "latest",
     "sass-loader": "^6.0.6",
-    "vue2-editor": "^2.3.11",
     "vuelidate": "^0.6.1",
     "vuetify": "^0.16.9"
   },
