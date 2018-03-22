@@ -1,43 +1,17 @@
 <template>
   <v-app>
-    <v-navigation-drawer
-      temporary
-      :mini-variant="miniVariant"
-      :clipped="clipped"
-      v-model="drawer"
-      enable-resize-watcher
-      app
-    >
-      <v-list>
-        <v-list-tile
-          value="true"
-          v-for="(item, i) in items"
-          :key="i"
-          :to="{path: item.href}"
-        >
-          <v-list-tile-action>
-            <v-icon v-html="item.icon"></v-icon>
-          </v-list-tile-action>
-          <v-list-tile-content>
-            <v-list-tile-title v-text="item.title" ></v-list-tile-title>
-          </v-list-tile-content>
-        </v-list-tile>
-      </v-list>
-
-    </v-navigation-drawer>
     <v-toolbar fixed app>
-      <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
       <v-spacer></v-spacer>
       <router-link to="/"><v-toolbar-title class="banner_image"></v-toolbar-title></router-link>
+      <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
       <v-spacer></v-spacer>
-      <v-toolbar-side-icon @click.stop="drawer2 = !drawer2"></v-toolbar-side-icon>
     </v-toolbar>
     <v-navigation-drawer
       temporary
       :right="right"
       :mini-variant="miniVariant"
       :clipped="clipped"
-      v-model="drawer2"
+      v-model="drawer"
       enable-resize-watcher
       app
     >
@@ -81,7 +55,6 @@
       return {
         clipped: false,
         drawer: false,
-        drawer2: false,
         fixed: false,
         items: [
           {
@@ -113,6 +86,10 @@
 </script>
 
 <style>
+
+  html {
+    font-size: 16px;
+  }
 
   .application--light {
     background-color: #d3d3d3 !important;
@@ -186,7 +163,7 @@
     width: 370px;
     height: 84px;
     background-size: 370px 84px;
-    margin: 0 !important;
+    margin: 0 0 0 36px !important;
   }
 
   .headline {

@@ -19,9 +19,7 @@
           <div>
             <div class="center"><h2 class="display-1">Contact us</h2></div>
             <div>
-              <p>Technocrat is a digital agency specialising in government, commercial and community work for <router-link to="clients">clients</router-link> with complex web publishing requirements. Established in 2009, we are a large team of more than 30 people based mainly in Melbourne, Sydney and Brisbane.</p>
-              <p>Our <router-link to="services">services</router-link> include interaction design, graphic design and project management, as well as web development, hosting and support. Our technical focus is balanced by a supportive, collaborative and inclusive work culture. Our CEO takes great care of our staff and clients, who in turn take care of our products and services.</p>
-              <p>Beyond our preference for open source technologies and Agile project management, our size and diversity allow us to adapt to any type of engagement. We invite you to <router-link to="contact">contact</router-link> us to discuss your next project.</p>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
             </div>
             <!-- <div v-text="item.id"></div> -->
           </div>
