@@ -101,7 +101,7 @@
   }
 
   .toolbar {
-    background-color: rgba(0,0,0,0.75) !important;
+    background-color: rgba(0,0,0,0.85) !important;
   }
 
   .card {
