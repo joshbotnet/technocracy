@@ -1,4 +1,4 @@
-# teachest
+# Technocrat
 
 > Nuxt.js project
 
