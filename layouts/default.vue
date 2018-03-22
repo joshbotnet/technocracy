@@ -100,8 +100,16 @@
     color: rgba(255,255,255,.54);
   }
 
+  .application--light .toolbar .btn {
+    margin: 6px 0;
+  }
+
   .toolbar {
     background-color: rgba(0,0,0,0.85) !important;
+  }
+
+  .navigation-drawer {
+    width: 160px !important;
   }
 
   .card {
@@ -140,25 +148,25 @@
   }
 
   .toolbar.toolbar--fixed {
-    height: 104px;
+    height: 84px;
   }
 
   main > .content {
-    padding-top: 104px !important;
+    padding-top: 84px !important;
   }
 
   .toolbar__content {
-    height: 104px !important;
+    height: 84px !important;
   }
 
   .banner_image {
     display: block;
     float: left;
     background-image: url("/assets/svg/logo.svg");
-    width: 370px;
-    height: 84px;
-    background-size: 370px 84px;
-    margin: 0 0 0 36px !important;
+    margin: 0 !important;
+    width: 282px;
+    height: 64px;
+    background-size: 282px 64px;
   }
 
   .headline {
@@ -184,24 +192,6 @@
       left: 5%;
       right: 0;
       width: 90%;
-    }
-
-    .toolbar.toolbar--fixed {
-      height: 84px;
-    }
-
-    main > .content {
-      padding-top: 84px !important;
-    }
-
-    .banner_image {
-      width: 282px;
-      height: 64px;
-      background-size: 282px 64px;
-    }
-
-    .toolbar__content {
-      height: 84px !important;
     }
 
   }
