@@ -43,7 +43,7 @@
       </v-content>
     </main>
 
-    <v-footer :fixed="fixed" app>
+    <v-footer>
       <span>&copy; Technocrat 2018</span>
     </v-footer>
   </v-app>
