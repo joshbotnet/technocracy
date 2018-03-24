@@ -187,18 +187,11 @@
   .banner_image {
     display: block;
     float: left;
-    background-image: url("/assets/svg/logo.svg");
+    background-image: url("/assets/svg/logo-active.svg");
     margin: 0 !important;
     width: 282px;
     height: 64px;
     background-size: 282px 64px;
-    transition: background-image .25s ease-in;
-
-  }
-
-  .banner_image:hover, .banner_image:active {
-    background-image: url("/assets/svg/logo-active.svg");
-    transition: background-image .25s ease-in;
   }
 
   .heading-icon {
