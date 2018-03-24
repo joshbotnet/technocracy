@@ -210,9 +210,31 @@
     }
   }
 
-  @media only screen and (min-width: 400px) {
+  @media only screen and (min-width: 480px) {
     .banner_image {
       margin: 0 0 0 36px !important;
+    }
+  }
+
+  @media only screen and (max-width: 479px) {
+
+    .toolbar.toolbar--fixed {
+      height: 68px;
+    }
+
+    main > .content {
+      padding-top: 68px !important;
+    }
+
+    .toolbar__content {
+      height: 68px !important;
+    }
+
+    .banner_image {
+      margin: 0 !important;
+      width: 211.5px;
+      height: 48px;
+      background-size: 211.5px 48px;
     }
   }
 
