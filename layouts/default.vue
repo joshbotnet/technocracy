@@ -104,7 +104,7 @@
 
   .theme--light .toolbar .btn:not(.btn--disabled):not(.btn--date-picker).btn--floating,
   .theme--light .toolbar .btn:not(.btn--disabled):not(.btn--date-picker).btn--icon {
-    color: #ff6600;
+    color: rgba(25,118,210,1);
   }
 
 
@@ -192,6 +192,13 @@
     width: 282px;
     height: 64px;
     background-size: 282px 64px;
+    transition: background-image .25s ease-in;
+
+  }
+
+  .banner_image:hover, .banner_image:active {
+    background-image: url("/assets/svg/logo-active.svg");
+    transition: background-image .25s ease-in;
   }
 
   .heading-icon {
