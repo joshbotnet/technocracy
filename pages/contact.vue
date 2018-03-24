@@ -17,7 +17,7 @@
       <v-card height="100%">
         <v-card-title primary-title>
           <div>
-            <div class="center"><h2 class="display-1">Contact us</h2></div>
+            <div class="center"><h1 class="display-1">Contact us</h1></div>
             <div>
               <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
             </div>

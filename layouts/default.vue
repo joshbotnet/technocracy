@@ -2,6 +2,9 @@
   <v-app>
     <v-toolbar fixed app>
       <v-spacer></v-spacer>
+      <v-btn icon to="/">
+        <v-icon>home</v-icon>
+      </v-btn>
       <router-link to="/"><v-toolbar-title class="banner_image"></v-toolbar-title></router-link>
       <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
       <v-spacer></v-spacer>
@@ -101,12 +104,10 @@
 
   .theme--light .toolbar .btn:not(.btn--disabled):not(.btn--date-picker).btn--floating,
   .theme--light .toolbar .btn:not(.btn--disabled):not(.btn--date-picker).btn--icon {
-    color: rgba(255,255,255,.54);
+    color: #ff6600;
   }
 
-  .theme--light .toolbar .btn {
-    margin: 6px 0;
-  }
+
 
   .toolbar {
     background-color: rgba(0,0,0,0.85) !important;
@@ -132,8 +133,16 @@
     width: 100%;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    color: #aaaaaa;
+  h1 {
+    color: #666666;
+  }
+
+  h2, h3, h4, h5, h6 {
+    color: #bbbbbb;
+  }
+
+  h1.display-1 {
+    margin-bottom: 12px;
   }
 
   h2.display-1 {
@@ -171,6 +180,10 @@
     height: 84px !important;
   }
 
+  .btn {
+    margin: 6px 4px;
+  }
+
   .banner_image {
     display: block;
     float: left;
@@ -179,10 +192,6 @@
     width: 282px;
     height: 64px;
     background-size: 282px 64px;
-  }
-
-  .headline {
-    color: #777777;
   }
 
   .heading-icon {
@@ -210,12 +219,6 @@
     }
   }
 
-  @media only screen and (min-width: 480px) {
-    .banner_image {
-      margin: 0 0 0 36px !important;
-    }
-  }
-
   @media only screen and (max-width: 479px) {
 
     .toolbar.toolbar--fixed {
@@ -231,7 +234,6 @@
     }
 
     .banner_image {
-      margin: 0 !important;
       width: 211.5px;
       height: 48px;
       background-size: 211.5px 48px;
