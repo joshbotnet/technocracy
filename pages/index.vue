@@ -14,7 +14,7 @@
           <v-card height="100%">
             <v-card-title primary-title>
               <div>
-                <h2>Welcome</h2>
+                <i class="material-icons heading-icon heading-icon-md color-green-200">perm_device_information</i><h2>Welcome</h2>
                 <div>
                   <p>Technocrat is a digital agency specialising in government, commercial and community work for <router-link to="clients">clients</router-link> with diverse and complex web publishing requirements. Established in 2009, we are a large team of more than 30 people based mainly in Melbourne, Sydney and Brisbane.</p>
                   <p>Our <router-link to="services">services</router-link> include interaction design, graphic design and project management, as well as web development, hosting and support. Our technical focus is balanced by a supportive, collaborative and inclusive work culture.</p>
