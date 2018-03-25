@@ -1,13 +1,13 @@
 <template>
   <v-app>
     <v-toolbar fixed app>
-      <v-spacer></v-spacer>
       <v-btn icon to="/">
         <v-icon>home</v-icon>
       </v-btn>
-      <router-link to="/"><v-toolbar-title class="banner_image"></v-toolbar-title></router-link>
-      <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
       <v-spacer></v-spacer>
+      <router-link to="/"><v-toolbar-title><h1>Technocrat</h1></v-toolbar-title></router-link>
+      <v-spacer></v-spacer>
+      <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
     </v-toolbar>
     <v-navigation-drawer
       temporary
@@ -67,11 +67,6 @@
             href: '/'
           },
           {
-            icon: 'info',
-            title: 'About',
-            href: 'about'
-          },
-          {
             icon: 'person',
             title: 'Clients',
             href: 'clients'
@@ -97,48 +92,75 @@
 <style lang="scss">
 
   html {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .theme--light {
-    background-color: #cccccc !important;
+    background-color: #fff !important;
   }
 
   .container {
-      padding: 10px 8px !important;
+      padding: 0 !important;
   }
 
   .theme--light .toolbar .btn:not(.btn--disabled):not(.btn--date-picker).btn--floating,
   .theme--light .toolbar .btn:not(.btn--disabled):not(.btn--date-picker).btn--icon {
-    color: rgba(25,118,210,1);
+    color: #66b2ff;
   }
 
+.application--wrap, .toolbar {
+  min-width: 370px
+}
 
-
+main.content {
+  padding: 96px 0 0 0 !important;
+}
   .toolbar {
-    background-color: rgba(0,0,0,0.85) !important;
+    background-color: rgba(255,255,255,0.9) !important;
+    height: 64px !important;
+    .toolbar__content {
+      height: 64px !important;
+    }
+    .icon {
+      font-size: 36px;
+    }
   }
 
-  .navigation-drawer {
-    width: 160px !important;
-  }
+  .footer {
+    background: #f6f6f6 !important;
+    margin: 16px 0 0 0;
+    padding: 0 16px;
+    position: relative;
+    z-index: 2;
+    text-align: center;
 
-  .card {
-    background-color: rgba(255,255,255,0.75) !important;
-  }
-
-  .page-bg {
-    position: absolute;
-    top: 0;
-    left: 20%;
-    right: 0;
-    width: 60%;
-    .page-bg-logo {
+    > span {
+      display: block;
+      margin: 0 auto;
       width: 100%;
     }
   }
 
 
+
+  .toolbar__title {
+    margin-left: 0;
+  }
+
+  .navigation-drawer {
+    width: 160px !important;
+    .list__tile__title {
+      font-size: 18px !important;
+    }
+    .list__tile__action {
+      min-width: 40px
+    }
+  }
+
+  .card {
+    background-color: rgba(255,255,255,0.75) !important;
+    box-shadow: 0 0 0 0 !important;
+  }
 
   .named-anchor {
     position: relative;
@@ -146,27 +168,27 @@
     display: none;
   }
 
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lobster', 'Roboto', sans-serif;
+    color: #9fbfdf;
+    letter-spacing: -0.02em !important;
+    font-weight: 400 !important;
+    line-height: 1 !important;
+  }
+
   h1 {
-    color: #666666;
+    color: #66b2ff;
+    font-size: 56px;
   }
 
-  h2, h3, h4, h5, h6 {
-    color: #bbbbbb;
-  }
-
-  h1.display-1 {
+  h2 {
     margin-bottom: 12px;
-    font-size: 34px !important;
+    font-size: 36px !important;
   }
 
-  h2.display-1 {
+  h3 {
     margin-bottom: 12px;
-    font-size: 28px !important;
-  }
-
-  h3.display-1 {
-    margin-bottom: 12px;
-    font-size: 24px !important;
+    font-size: 36px !important;
   }
 
   a {
@@ -177,28 +199,24 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    .card__title {
+      padding: 16px 16px 0 16px;
+      > div {
+        width: 100%;
+      }
+    }
+    .card__actions {
+      display: flex;
+      justify-content: flex-end;
+    }
   }
 
-  .card__actions {
-    display: flex;
-    justify-content: flex-end;
-  }
 
-  .toolbar.toolbar--fixed {
-    height: 84px;
-  }
 
-  main > .content {
-    padding-top: 84px !important;
-  }
 
-  .toolbar__content {
-    height: 84px !important;
-  }
 
   .anchor-list {
     display: none;
-    text-align: center;
     ul {
       list-style: none;
       list-style-type: none;
@@ -209,48 +227,16 @@
         list-style-type: none;
         margin: 0;
         padding: 0;
-        text-align: center;
-      }
-    }
-    &.anchor-list-home {
-      display: block;
-      ul {
-        li {
-          display: inline-block;
-          padding: 0 10px;
+        display: block;
+
+        a {
+          font-style: italic;
         }
       }
     }
   }
 
-  .card__title > div {
-    width: 100%;
-  }
 
-  .btn {
-    margin: 6px 4px;
-  }
-
-  .banner_image {
-    display: block;
-    float: left;
-    margin: 0 !important;
-    width: 282px;
-    height: 64px;
-    background-size: 282px 64px;
-    background-image: url("/assets/svg/logo.svg");
-  }
-
-  a:link .banner_image,
-  a:focus .banner_image,
-  a:active .banner_image,
-  a:visited .banner_image {
-    background-image: url("/assets/svg/logo.svg");
-  }
-
-  a:hover .banner_image {
-    background-image: url("/assets/svg/logo.svg");
-  }
 
   .heading-icon {
     color: #666666;
@@ -264,48 +250,38 @@
     text-align: center;
   }
 
-  .footer {
-    padding: 0 0 0 16px;
-    position: relative;
-    z-index: 2;
-  }
+
 
   @media only screen and (max-width: 959px) {
-
+    .card {
+      .card__title {
+        padding: 0 16px;
+      }
+    }
   }
 
+
+.toolbar .toolbar__content > .btn:first-child, .toolbar .toolbar__extension > .btn:first-child {
+    margin-left: 17px !important;
+}
+
+.toolbar .toolbar__content > .btn:last-child, .toolbar .toolbar__extension > .btn:last-child {
+    margin-right: 17px !important;
+}
+
   @media only screen and (max-width: 639px) {
-    .page-bg {
-      top: 50px;
-      left: 5%;
-      right: 0;
-      width: 90%;
+    .toolbar {
+      h1 {
+        font-size: 46px;
+      }
     }
   }
 
   @media only screen and (max-width: 479px) {
-
-    .named-anchor {
-      top: -90px;
-      display: none;
-    }
-
-    .toolbar.toolbar--fixed {
-      height: 68px;
-    }
-
-    main > .content {
-      padding-top: 68px !important;
-    }
-
-    .toolbar__content {
-      height: 68px !important;
-    }
-
-    .banner_image {
-      width: 211.5px;
-      height: 48px;
-      background-size: 211.5px 48px;
+    .toolbar {
+      h1 {
+        font-size: 36px;
+      }
     }
   }
 
