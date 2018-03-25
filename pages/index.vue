@@ -13,99 +13,29 @@
 
       <v-layout row wrap>
 
-    <v-flex xs12 sm12 md10 offset-md1 lg10 offset-lg1 xl8 offset-xl2 class="pa-3">
-      <v-card height="100%">
-        <v-card-title primary-title>
-          <div>
-            <div class="center"><h1 class="display-1">Welcome</h1></div>
-            <div>
-              <p>Technocrat is a digital agency specialising in government, commercial and community work for <router-link to="clients">clients</router-link> with diverse and complex web publishing requirements. Established in 2009, we are a large team of more than 30 people based mainly in Melbourne, Sydney and Brisbane.</p>
-              <p>Our <router-link to="services">services</router-link> include interaction design, graphic design and project management, as well as web development, hosting and support. Our technical focus is balanced by a supportive, collaborative and inclusive work culture.</p>
-              <p>Beyond our preference for open source technologies and Agile project management, our size and diversity allow us to adapt to any type of engagement. We invite you to <router-link to="contact">contact</router-link> us to discuss your next project.</p>
-            </div>
-            <!-- <div v-text="item.id"></div> -->
-          </div>
-        </v-card-title>
-      </v-card>
-    </v-flex>
-
-    <v-flex xs12 sm12 md6 lg4 xl3 class="pa-3">
-      <v-card height="100%">
-        <v-card-title primary-title>
-          <div>
-            <div class="center"><i class="material-icons heading-icon heading-icon-md">lock_open</i><h3 class="display-1">Open Source</h3></div>
-            <div>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-            </div>
-            <!-- <div v-text="item.id"></div> -->
-          </div>
-        </v-card-title>
-      </v-card>
-    </v-flex>
-
-    <v-flex xs12 sm12 md6 lg4 xl3 class="pa-3">
-      <v-card height="100%">
-        <v-card-title primary-title>
-          <div>
-            <div class="center"><i class="material-icons heading-icon heading-icon-md">date_range</i><h3 class="display-1">Agile</h3></div>
-            <div>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-            </div>
-            <!-- <div v-text="item.id"></div> -->
-          </div>
-        </v-card-title>
-      </v-card>
-    </v-flex>
-
-    <v-flex xs12 sm12 md6 lg4 xl3 class="pa-3">
-      <v-card height="100%">
-        <v-card-title primary-title>
-          <div>
-            <div class="center"><i class="material-icons heading-icon heading-icon-md">security</i><h3 class="display-1">Secure</h3></div>
-            <div>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-            </div>
-            <!-- <div v-text="item.id"></div> -->
-          </div>
-        </v-card-title>
-      </v-card>
-    </v-flex>
-
-    <v-flex xs12 sm12 md6 lg4 xl3 class="pa-3">
-      <v-card height="100%">
-        <v-card-title primary-title>
-          <div>
-            <div class="center"><i class="material-icons heading-icon heading-icon-md">face</i><h3 class="display-1">Accessible</h3></div>
-            <div>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-            </div>
-            <!-- <div v-text="item.id"></div> -->
-          </div>
-        </v-card-title>
-      </v-card>
-    </v-flex>
-
-    <v-flex xs12 sm12 md6 lg4 xl3 class="pa-3">
-      <v-card height="100%">
-        <v-card-title primary-title>
-          <div>
-            <div class="center"><i class="material-icons heading-icon heading-icon-md">track_changes</i><h3 class="display-1">Reliable</h3></div>
-            <div>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-            </div>
-            <!-- <div v-text="item.id"></div> -->
-          </div>
-        </v-card-title>
-      </v-card>
-    </v-flex>
-
+        <v-flex xs12 sm12 md10 offset-md1 lg10 offset-lg1 xl8 offset-xl2 class="pa-3" id="welcome">
+          <v-card height="100%">
+            <v-card-title primary-title>
+              <div>
+                <div class="center"><h1 class="display-1">Welcome</h1></div>
+                <div>
+                  <div class="anchor-list anchor-list-home">
+                    <ul>
+                      <li><router-link to="/about">About</router-link></li>
+                      <li><router-link to="/clients">Clients</router-link></li>
+                      <li><router-link to="/services">Services</router-link></li>
+                      <li><router-link to="/contact">Contact</router-link></li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- <div v-text="item.id"></div> -->
+              </div>
+            </v-card-title>
+          </v-card>
+        </v-flex>
 
       </v-layout>
     </v-container>
 
 </div>
 </template>
-
-<style>
-
-</style>
