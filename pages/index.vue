@@ -39,7 +39,7 @@
           <v-card height="100%">
             <v-card-title primary-title>
               <div>
-                <div class="center"><i class="material-icons heading-icon heading-icon-md color-pink-200">face</i><h3>Accessible</h3></div>
+                <i class="material-icons heading-icon heading-icon-md color-pink-200">face</i><h3>Accessible</h3>
                 <div>
                   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
                 </div>
@@ -53,7 +53,7 @@
           <v-card height="100%">
             <v-card-title primary-title>
               <div>
-                <div class="center"><i class="material-icons heading-icon heading-icon-md color-purple-200">track_changes</i><h3>Reliable</h3></div>
+                <i class="material-icons heading-icon heading-icon-md color-purple-200">track_changes</i><h3>Reliable</h3>
                 <div>
                   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
                 </div>
@@ -67,7 +67,7 @@
           <v-card height="100%">
             <v-card-title primary-title>
               <div>
-                <div class="center"><i class="material-icons heading-icon heading-icon-md color-orange-200">security</i><h3>Secure</h3></div>
+                <i class="material-icons heading-icon heading-icon-md color-orange-200">security</i><h3>Secure</h3>
                 <div>
                   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
                 </div>
@@ -81,7 +81,7 @@
           <v-card height="100%">
             <v-card-title primary-title>
               <div>
-                <div class="center"><i class="material-icons heading-icon heading-icon-md color-green-200">lock_open</i><h3>Open source</h3></div>
+                <i class="material-icons heading-icon heading-icon-md color-green-200">lock_open</i><h3>Open source</h3>
                 <div>
                   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
                 </div>
@@ -95,7 +95,7 @@
           <v-card height="100%">
             <v-card-title primary-title>
               <div>
-                <div class="center"><i class="material-icons heading-icon heading-icon-md color-cyan-200">playlist_add_check</i><h3>Transparent</h3></div>
+                <i class="material-icons heading-icon heading-icon-md color-cyan-200">playlist_add_check</i><h3>Transparent</h3>
                 <div>
                   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
                 </div>
@@ -109,7 +109,7 @@
           <v-card height="100%">
             <v-card-title primary-title>
               <div>
-                <div class="center"><i class="material-icons heading-icon heading-icon-md color-blue-200">date_range</i><h3>Scrum</h3></div>
+                <i class="material-icons heading-icon heading-icon-md color-blue-200">date_range</i><h3>Scrum</h3>
                 <div>
                   <p>Sed ut perspiciatis <router-link to="/services">project management</router-link> unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
                 </div>

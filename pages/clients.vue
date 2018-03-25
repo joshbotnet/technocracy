@@ -36,7 +36,7 @@
           <v-card height="100%">
             <v-card-title primary-title>
               <div>
-                <div class="center"><i class="material-icons heading-icon heading-icon-md color-red-200">account_balance</i><h3>Government</h3></div>
+                <i class="material-icons heading-icon heading-icon-md color-red-200">account_balance</i><h3>Government</h3>
                 <div>
                   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
                 </div>
@@ -51,7 +51,7 @@
           <v-card height="100%">
             <v-card-title primary-title>
               <div>
-                <div class="center"><i class="material-icons heading-icon heading-icon-md color-indigo-200">store</i><h3>Commercial</h3></div>
+                <i class="material-icons heading-icon heading-icon-md color-indigo-200">store</i><h3>Commercial</h3>
                 <div>
                   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
                 </div>
@@ -66,7 +66,7 @@
           <v-card height="100%">
             <v-card-title primary-title>
               <div>
-                <div class="center"><i class="material-icons heading-icon heading-icon-md color-light-green-200">local_library</i><h3>Academic</h3></div>
+                <i class="material-icons heading-icon heading-icon-md color-light-green-200">local_library</i><h3>Academic</h3>
                 <div>
                   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
                 </div>
@@ -81,7 +81,7 @@
           <v-card height="100%">
             <v-card-title primary-title>
               <div>
-                <div class="center"><i class="material-icons heading-icon heading-icon-md color-amber-200">local_florist</i><h3>Community</h3></div>
+                <i class="material-icons heading-icon heading-icon-md color-amber-200">local_florist</i><h3>Community</h3>
                 <div>
                   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
                 </div>

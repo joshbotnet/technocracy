@@ -243,7 +243,9 @@ main.content {
   }
 
   .heading-icon-md {
-    font-size: 52px;
+    font-size: 36px;
+    margin-right: 8px;
+    float: left;
   }
 
   .center {
